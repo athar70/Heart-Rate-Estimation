@@ -26,6 +26,14 @@ The methodology consists of several key steps:
    - Train on 35 participants and test on 5 unseen participants.
    - Train on 75% of the videos of each participant and test on the remaining 25%.
 
+![Methodology](images/Method.png)
+
+## CNN Architecture
+
+Below is the CNN architecture used for heart rate estimation:
+
+![CNN Architecture](images/CNN.png)
+
 ## Results
 
 The following results were obtained:
@@ -49,12 +57,12 @@ Participants watched a series of short video clips that elicited various emotion
    git clone https://github.com/athar70/Heart-Rate-Estimation.git
    cd Heart-Rate-Estimation
    ```
-2. **Install the required libraries:**:
+2. **Install the required libraries**:
 
     ```bash
     pip install -r requirements.txt
     ```
-3. **Download the dataset:**:
+3. **Download the dataset**:
   The AMIGOS dataset is required for this project. Download it from [here](https://www.eecs.qmul.ac.uk/mmv/datasets/amigos/) and place the data in the appropriate directory.
 
 4. **Run the preprocessing and Train the model:**:
